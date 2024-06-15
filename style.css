@@ -1,0 +1,180 @@
+body {
+    font-family: sans-serif;
+}
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgba(255, 0, 0, 0.856);
+    padding: 20px;
+    width: 1100px;
+}
+
+header a {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px;
+}
+
+header img {
+    width: 200px;
+    height: 60px;
+}
+
+.sp_button {
+    background-color: #2adede;
+    border: 1px solid #2adede;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: normal;
+    border-bottom: 2px solid rgb(192, 7, 7);
+    padding-bottom: 5px;
+    width: 1100px;
+}
+
+h2 {
+    color: blueviolet;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+}
+
+article {
+    font-size: 20px;
+    padding: 20px;
+    width: 800px;
+    margin: 20px;
+    border: 1px solid navy;
+    border-radius: 15px;
+    text-align: center;
+}
+
+article img {
+    height: 150px;
+    width: 200px;
+}
+
+article:hover {
+    box-shadow: 0 5px 5px 5px navy;
+}
+
+.page {
+    width: 80px;
+    position: relative;
+    bottom: 100px;
+}
+
+.nb_news {
+    background-color: navy;
+    color: white;
+}
+
+footer {
+    background-color: #8fddf2;
+    padding: 10px;
+    width: 1100px;
+}
+
+footer p {
+    background-color: white;
+    padding: 5px;
+}
+article:hover {
+    background-color: #2adede;
+    color: white;
+    font-size: 25px;
+    transition: background-color 1s ease-in, color 1s ease-in, font-size 1s ease-in;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: navy;
+    padding: 20px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sp_button {
+    background-color: #2adede;
+    border: 1px solid #2adede;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4vw; /* Розмір шрифту відносно ширини екрану */
+    font-weight: normal;
+    border-bottom: 2px solid navy;
+    padding-bottom: 5px;
+}
+
+h2 {
+    color: blueviolet;
+    font-size: 3vw; /* Розмір шрифту відносно ширини екрану */
+    padding: 10px;
+    margin-bottom: 5vw; /* Загальний відступ від нижнього краю */
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.post {
+    flex: 1 1 300px; /* Ширина статей при адаптивному розміщенні */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid navy;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+}
+
+.page {
+    width: 20%; /* Розмір сторінки відносно ширини контейнера */
+    position: relative;
+    bottom: 100px;
+}
+
+.nb_news {
+    background-color: navy;
+    color: white;
+}
+
+footer {
+    background-color: #8fddf2;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px;
+}
